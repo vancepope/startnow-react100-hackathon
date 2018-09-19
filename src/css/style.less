@@ -1,8 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-  background: #136a8a; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #b3e6eb, #6281c9);
-  background: linear-gradient(to left, #b3e6eb, #6281c9);
+  background: url('../../img/hearthstone.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .page-header {
   color: #fff;
@@ -20,13 +20,46 @@ li {
   background: none;
   border: none;
 }
+.logo {
+  width: 100%;
+}
+.c4rds {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin-left: 7.5%;
+  margin-right: 5%;
+}
+.image {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.image img {
+  width: 320px;
+  height: 180px;
+
+}
+.c4rd {
+  flex: 0 0 200px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+} 
+.c4rd img {
+  max-width: 200px;
+  max-height: 100%;
+}
 .card-footer {
   width: 100%;
 }
 .no-padding {
   padding: 0 !important;
 }
-
+.btn-group img {
+  background: none;
+  border: none !important;
+}
 .no-margin {
   margin: 0 !important;
 }

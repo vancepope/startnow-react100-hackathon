@@ -1,7 +1,7 @@
 {
-  "name": "vstda",
+  "name": "hearthstone-hackathon",
   "version": "0.1.0",
-  "description": "REACT100 Assignment - VSTDA",
+  "description": "Hearthstone Hackathon",
   "main": "server/index.js",
   "scripts": {
     "build": "npm run less && webpack",
@@ -55,6 +55,10 @@
     "sinon": "^1.17.6",
     "sinon-chai": "^2.8.0",
     "url-loader": "^0.5.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vancepope/startnow-react100-hackathon.git"
   },
   "license": "MIT"
 }
