@@ -14,7 +14,7 @@ class DisplayGif extends Component {
   render() {
     return (
       <div className='card'>
-        <div className='card-header'>GIFs</div>
+        <div className='card-header text-center'>GIFs</div>
         <div className='card-body'>
           <div className='image'>
             {
